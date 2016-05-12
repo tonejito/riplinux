@@ -1,0 +1,35 @@
+===========================================================================
+  If you want to install Linux to a Linux partition on a USB Flash drive.
+===========================================================================
+
+   The USB drive should be at least 512 MB to hold the contents of
+   rootfs.cgz from RIPLinuX-X.X.iso.
+
+========================================================================
+
+   It will create a partition and put an ext2/3/4 or btrfs filesystem
+   on it, then the Linux system will be extracted to it. You'll be able
+   to boot and use it, just like if it was installed to a hard drive
+   Linux partition.
+
+   # fdisk -l  "To find the device the USB drive is on!"
+               "For example, if it says /dev/sdb1, just put '/dev/sdb' etc."
+
+   Specify type of filesystem with '-t' option (ext2, ext3, ext4, or btrfs).
+
+   # bash mkextlin.sh -t ext3 RIPLinuX-X.X.iso /dev/sdb
+
+   The above example assumes the USB drive is on /dev/sdb!
+
+   Instead of specifying an ISO image you can specify a source directory
+   that contains the contents of the ISO image, laid out the same way
+   as the ISO image.
+
+   # bash mkextlin.sh -t ext3 source_directory /dev/sdb
+
+   If you had RIPLinuX on CD mounted under /mnt/cdrom, you could do this.
+
+   bash mkextlin.sh -t ext3 /mnt/cdrom /dev/sdb 
+
+   To boot the Linux system, the BIOS must support booting from a USB device.
+------------------------------------------------------------------------------

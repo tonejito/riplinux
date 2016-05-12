@@ -1,0 +1,93 @@
+========================================================================
+        If you want to boot RIPLinuX from a USB Flash drive.
+========================================================================
+
+   The USB device should be at least 75 MB for RIPLinuX-4.3.iso.
+   The USB device should be at least 40 MB for RIPLinux-4.3-non-X.iso.
+
+================== Install RIPLinuX to the USB device =================
+
+   # sh mkusb.sh RIPLinuX-4.3.iso /dev/sdb  "You'll loose anything
+                                             on the USB drive!"
+
+   The above example assumes that's the name of the ISO image, and
+   the USB drive is on /dev/sdb!
+
+   # fdisk -l  "To find the device the USB drive is on!"
+               "For example, if it says /dev/sdb4, just put '/dev/sdb' etc. "
+
+   If you've already run mkusb and don't want the USB drive formatted
+   again, you can use the '-f' option. This way you won't loose anything
+   on the USB drive.
+
+   # sh mkusb.sh -f RIPLinuX-4.3.iso /dev/sdb
+
+   Instead of specifying an ISO image, you can specify a source directory
+   that contains the contents of the ISO image, laid out the same way
+   as the ISO image.
+
+   # sh mkusb.sh source_directory /dev/sdb
+
+   If you want to change or add something to the Linux system, do this.
+
+   # mkdir /rip1 /rip2
+   # mount -t vfat /dev/sdb1 /rip1
+   # cd /rip2
+   /rip2# gzip -dc /rip1/boot/rootfs.cgz | cpio -iumdv
+
+   Make the changes in the /rip2 directory, then cpio/gzip the system.
+
+   # rm /rip1/boot/rootfs.cgz
+   /rip2# find . | bin/cpio -v -o -H newc | gzip -9 >/rip1/boot/rootfs.cgz
+                     ^^^
+        "Use the RIPLinuX 'bin/cpio' here!"
+
+   # rm -rf /rip2
+   # umount /rip1
+   # rmdir /rip1
+
+   There's also a Windows NT/2K/XP/Vista version of mkusb.sh.
+   It won't work under DOS or Win9x!
+
+   In Windows, run 'mkusb.bat' on the RIPLinuX CD from the boot directory!
+
+   d:\boot\mkusb.bat f:  "Specify the USB drive!"
+                         "You'll loose anything on the USB drive!"
+
+   There are Windows programs that can extract the contents of the
+   RIPLinuX ISO image.
+
+   You can use isox.exe to extract the RIPLinuX ISO in Windows.
+
+   Get 'isox-1.20.exe' and extract it!
+   Put RIPLinuX-4.3.iso in the same directory as xiso.bat!
+   Read the README and then run xiso.bat!
+
+   Instead of using a RIPLinuX CD, you can use a directory that has the
+   contents of RIPLinuX, laid out like the ISO image.
+
+   c:\riplinux\boot\grub4dos\grub.exe etc.
+   c:\riplinux\boot\isolinux\menu.c32 etc.
+   c:\riplinux\boot\makeboot\makeboot.exe etc.
+   c:\riplinux\boot\kernel etc.
+   c:\riplinux\boot\rootfs.cgz etc.
+
+   c:\riplinux\boot\mkusb.bat f:
+
+   To boot the RIPLinuX system, the BIOS must support booting from a USB device.
+
+ATTENTION!!!      ATTENTION!!!      ATTENTION!!!
+
+   You can boot a RIPLinuX CD and run 'mkusb.sh' on the CD from the Linux
+   system.
+
+   Mount the RIPLinuX CD!
+
+   # mount /dev/scd0 /mnt/cdrom
+   # sh /mnt/cdrom/boot/mkusb.sh -h  "For Help!"
+   # sh /mnt/cdrom/boot/mkusb.sh /mnt/cdrom /dev/sdb
+
+   The above example assumes your CD drive is /dev/scd0 and your
+   USB drive is /dev/sdb!
+=========================================================================
+

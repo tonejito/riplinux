@@ -1,0 +1,202 @@
+<P>
+You can get the (R)ecovery (I)s (P)ossible Linux rescue system here!
+</P>
+
+<P>
+Please make a donation.
+</P>
+
+<P>
+</P>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="8FD9F9MEJYWEG">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<P>
+This is the RIP home site.<br>
+http://www.tux.org/pub/people/kent-robotti/looplinux/rip
+</P>
+
+<LI><a href="http://www.tux.org/pub/people/kent-robotti/looplinux/rip">RIP Linux home site!</a>
+<LI><a href="http://rip.7bf.de/current">Alternate RIP Linux site!</a>
+
+<P>
+You'll need at least 512MB of RAM and i686 (Pentium III with PAE<br>
+support) CPU to boot it. There are 32bit and 64bit kernels.
+</P>
+
+<P>
+If you want to run it in VirtualBOX (enable PAE) or VMWare, increase<br>
+the Base Memory to 1024. With QEMU using KVM, pass 'noexec=off' to<br>
+the kernel.
+</P>
+
+<P>
+Please inform me if RIP is working or not!<br>
+Any suggestions are appreciated!
+</P>
+
+<P>
+Use this Windows USB installer to put RIP on a USB drive.<br>
+Choose "RIP Linux" from its menu, then browse to where<br>
+RIPLinuX-13.7.iso is on your hard drive etc. It should<br>
+work with any ISO below, but your USB flash drive should<br>
+be at least 256MB and FAT16 or FAT32 formatted.
+</P>
+
+<LI><a href="http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3">Universal USB Installer (Home Site)</a>
+
+<P>
+Other methods for putting RIP on a USB flash drive are<br>
+described in the USB readme below.
+</P>
+
+<P>
+Verify the ISO under Linux or Windows.<br>
+md5sum -c RIPLinuX-13.7.md5 "It should say OK!"
+</P>
+
+<table BORDER=1>
+<tr>
+   <th> Name </th>
+   <th> Size </th>
+   <th> Date </th>
+</tr>
+
+<table BORDER=1>
+<tr>
+   <td> <A HREF="RIPLinuX-13.7.readme">RIPLinuX (README)</A> </td>
+   <td align=right> 15Kb </td>
+   <td> Jan 15 2012 </td>
+</tr>
+<tr>
+   <td> <A HREF="RIPLinuX-13.7.iso">Bootable ISO (RIPLinuX-13.7.iso)</A> </td>
+   <td align=right> 159744Kb </td>
+   <td> Jan 15 2012 </td>
+</tr>
+<tr>
+   <td> <A HREF="RIPLinuX-13.7.md5">RIPLinuX-13.7 md5-checksum</A> </td>
+   <td align=right> 51b </td>
+   <td> Jan 15 2012 </td>
+</tr>
+<tr>
+   <td> <A HREF="Changelog">Changelog (README)</A> </td>
+   <td align=right> 15Kb </td>
+   <td> Jan 15 2012 </td>
+</tr>
+</table>
+
+
+<P>
+This is a GRUB2 X version. If the one above doesn't boot, try this.<br>
+It only boots from CD/DVD!
+</P>
+
+<table BORDER=1>
+<tr>
+   <th> Name </th>
+   <th> Size </th>
+   <th> Date </th>
+</tr>
+
+<table BORDER=1>
+<tr>
+   <td> <A HREF="RIPLinuX-13.7.grub2.iso">Bootable ISO (RIPLinuX-13.7.grub2.iso)</A> </td>
+   <td align=right> 160708Kb </td>
+   <td> Jan 15 2012 </td>
+</tr>
+</table>
+
+<P>
+This is a PXE network X version.<br>
+unzip -L RIPLinuX-13.7.PXE.zip "Extract under Linux!"
+</P>
+
+<table BORDER=1>
+<tr>
+   <th> Name </th>
+   <th> Size </th>
+   <th> Date </th>
+</tr>
+
+<table BORDER=1>
+<tr>
+   <td> <A HREF="RIPLinuX-13.7.PXE.zip">RIPLinuX-13.7.PXE.zip</A> </td>
+   <td align=right> 156286Kb </td>
+   <td> Jan 15 2012 </td>
+</tr>
+<tr>
+   <td> <A HREF="RIPLinuX-13.7.PXE.md5">RIPLinuX-13.7.PXE md5-checksum</A> </td>
+   <td align=right> 55b </td>
+   <td> Jan 15 2012 </td>
+</tr>
+</table>
+
+<P>
+Read the USB readme for instructions on how to install RIP<br>
+on a USB flash drive.
+</P>
+
+<P>
+Read the mkextlin readme for instructions on how to install<br>
+the Linux system on a USB flash drive partition. You can<br>
+then boot and use it the same as if it was installed to a<br>
+Linux Ext2/3/4 or Btrfs formatted partition on a hard drive.
+</P>
+
+<table BORDER=1>
+<tr>
+   <th> Name </th>
+   <th> Size </th>
+   <th> Date </th>
+</tr>
+
+<table BORDER=1>
+<tr>
+   <td> <A HREF="mkusb.txt">USB (README)</A> </td>
+   <td align=right> 3Kb </td>
+   <td> Jan 15 2012 </td>
+</tr>
+<tr>
+   <td> <A HREF="mkusb.sh">mkusb.sh</A> </td>
+   <td align=right> 9Kb </td>
+   <td> Jan 15 2012 </td>
+</tr>
+<tr>
+   <td> <A HREF="mkextlin.txt">mkextlin (README)</A> </td>
+   <td align=right> 2Kb </td>
+   <td> Jan 15 2012 </td>
+</tr>
+<tr>
+   <td> <A HREF="mkextlin.sh">mkextlin.sh</A> </td>
+   <td align=right> 9Kb </td>
+   <td> Jan 15 2012 </td>
+</tr>
+</table>
+
+<P>
+</P>
+
+<table BORDER=1>
+<tr>
+   <th> Name </th>
+   <th> Size </th>
+   <th> Date </th>
+</tr>
+
+<table BORDER=1>
+<tr>
+   <td> <A HREF="dd-0.6beta3.zip">dd-0.6beta3.zip</A> </td>
+   <td align=right> 196080Kb </td>
+   <td> Apr 26 2011 </td>
+</tr>
+</table>
+
+<P>
+</P>
+
+<LI><a href="mailto:kent.robotti@gmail.com">Email: Kent Robotti kent.robotti@gmail.com</a>

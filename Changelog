@@ -1,0 +1,618 @@
+13.7 - 1/14/2012
+  * The kernels are 3.2.1.
+  Updated xorriso 1.1.8
+  Updated cdrskin 1.1.8
+  Updated lrzip 0.608
+  Added ndiswrapper 1.57
+  Updated coreutils 8.15
+  Updated curl 7.23.1
+  Updated lftp 4.3.4
+  Updated wget 1.13.4
+  Updated util-linux 2.20.1
+  * No non-X versions, I had trouble uploading them.
+
+13.6 - 1/9/2012
+  * The 32bit kernel is 3.2.0.
+  Updated FireFOX 9.0.1
+  Updated partclone 0.2.43
+  Updated extcarve 1.3
+  Updated testdisk/photorec 6.14-WIP Jan/2012
+  Updated ddrescue 1.15
+  Updated ntfs-3g 2011.10.9AR.1
+  Updated GParted 0.11.0
+  Updated e2fsprogs 1.42
+  Updated truecrypt 7.1
+  Updated rsync 3.0.9
+  Updated openssh 5.9
+  Updated grub2 1.99-14
+  Updated xfsprogs 3.1.7
+  Updated xfsdump 3.0.6
+  Updated dkopp 6.0
+  Updated ukopp 4.1
+
+13.5 - 6/24/2011
+  * The kernels are 2.6.39.2 (no Reiser4 support)
+  Updated extcarve 0.4
+  Updated FireFOX 5.0
+  Updated xorriso 1.1.0.pl01
+  Updated cdrskin 1.1.0
+  Updated mdadm 3.2.2
+  Updated lftp 4.3.0
+
+13.4 - 6/16/2011
+  Updated lynx 2.8.8dev.9
+  Updated ntfs-3g 2011.4.12AR.3
+  Updated sleuthkit 3.2.2
+  Updated afftools 3.6.12
+  Updated Pidgin 2.8.0
+  Updated pan 0.135
+  * Added netscript boot option:
+    netscript=http://example.com/stuff-to-do.sh  "After starting DHCP, this
+                                                  invokes a Bourne shell script
+                                                  via the network."
+
+13.3 - 6/12/2011
+  Added extcarve 0.3
+  Updated smartmontools 5.41
+  Updated gsmartcontrol 0.8.6
+  * Replaced 7za with 7z 9.20.1 (without RAR support)
+  * Added vmxnet3 and pvscsi support to kernels.
+  * Added governor boot option:
+    governor=powersave  "Choose CPU frequency governor: userspace, performance,
+                         powersave, conservative, or powernowd (userspace
+                         daemon). The default is 'ondemand'.
+
+13.2 - 6/10/2011
+  * Replaced ntfsresize from ntfs-3g with version from
+    ntfsprogs-2.0.0, because GParted was having a problem.
+  Added cstream 3.0.0
+  Updated xfe 1.32.4
+  Updated clamav 0.97.1
+  Updated fetchmail 6.3.20
+
+13.1 - 6/5/2011
+  Updated cdrtools 3.01a05
+  * Compiled kernels to use "ondemand cpufrequency governor" to prevent
+   "CPU reached critical temperature" system shutdown.
+
+13.0 - 6/4/2011
+  * The kernels are 2.6.38.8.
+  Updated dar 2.4.0
+
+12.9 - 6/1/2011
+  Added powertop 1.98
+  Updated chntpw 110511
+  Updated module-init-tools 3.13
+  Updated xf86-input-synaptics 1.4.0.901+git-6/1/2011
+  * Patched GParted 0.8.1 to git-6/1/2011 changes.
+
+12.8 - 5/30/2011
+  Updated epdfview 1.8
+  Updated partclone 0.2.24
+  Updated udev 171
+  Updated ati-radeon video card driver 6.14.2
+  Updated wget 1.12-2504
+  Updated psensor 0.6.1.10
+  * Replaced cpufrequtils with cpupowerutils (cpupower) 009p1.
+
+12.7 - 5/26/2011
+  Added lsutil 1.62 "lsutil and lsutil-64"
+  Added megacli 4.00.16 "megacli and megacli-64"
+  * Added firewire support to kernel.
+  * Fixed boot option:
+    sshd  "Start SSH daemon! (root can login with empty password)"
+
+12.6 - 5/23/2011
+  * The kernels are 2.6.38.7.
+  Updated ntfs-3g 2011.4.12AR.1
+  Updated aria2c 1.11.2
+  Updated deadbeef 0.5.1
+  Updated udev 169
+  Updated GParted 0.8.1
+  Added psftp/pscp 2011-05-09
+
+12.5 - 5/20/2011
+  Updated parted 2.4
+  Updated grub2 1.99-3
+  Updated openssh 5.8p2
+  Added hdck 0.5.0
+  Updated gcalctool 6.0.1
+
+12.4 - 5/15/2011
+  * The kernels are 2.6.38.6.
+  Updated deadbeef 0.5.0
+  Updated sylpheed 3.1.1
+  Updated lrzip 0.606
+  Updated nano 2.3.1
+  Updated testdisk/photorec 6.12
+  Updated links 2.3pre2
+  Updated scalpel 2.0
+  Updated transmission-gtk 2.30
+  * Added boot option 'raid'.  "Search for and setup RAID partitions!"
+  * If you want to update the BIOS on a DELL computer, run 'dellbiosupdate'.
+    It will try to download and update the BIOS.
+
+12.3 - 5/9/2011
+  * Replaced xmms with deadbeef 0.5.0-beta2.
+  Updated curl 7.21.6
+  Updated LVM2 2.02.85
+  Updated xterm 270
+  Updated lrzip 0.605
+  Added lxterminal 0.1.9
+
+12.2 - 5/4/2011
+  * The kernels are 2.6.38.5.
+  Updated util-linux-ng 2.19.1
+  Updated transmission-gtk 2.30b4
+  Updated dkopp 5.8
+  Updated ukopp 3.9
+  Updated findwild 1.2
+  Updated bash 4.2.10
+  Updated testdisk/photorec 6.12-WIP Apr 28, 2011
+  Added xfe 1.32.3
+  Updated GParted 0.8.1pre
+  Added PLOP boot manager 5.0.12 (USB/CD boot without BIOS support)
+
+12.1 - 4/29/2011
+  Updated lrzip 0.604
+  Updated coreutils 8.12
+  Updated lftp 4.2.3
+  Updated FireFOX 4.0.1
+  * Reverted udev to 1.42, because later versions may have problems.
+  * Added ethernet modules for 64bit kernel.
+
+12.0 - 4/25/2011
+  * The kernels are 2.6.38.4.
+  Updated partclone 0.2.23
+  Updated lrzip 0.603
+  Updated udev 168
+  Updated syslinux 4.04
+  Updated hdt 0.5.0
+  Updated nwipe 0.05
+  Added ifstatus 1.1.0
+  Updated transmission-gtk 2.30b3
+  * Removed raid detection. If you pass 'raid' to the kernel, it will try to
+    detect raid partitions.
+  * Added keyboard map selection to the SYSLinux/ISOLinux/PXELinux boot menu.
+  * The 64bit kernel doesn't have all the support that the 32bit kernel
+    has, because it's just for the purpose of booting a 64bit Linux system,
+    or doing a 'chroot' to one.
+
+11.9 - 4/17/2011
+  * The kernels are 2.6.38.3.
+  Updated mtpaint 3.34.65
+  Updated aria2c 1.11.1
+  Updated udev 167
+  Updated lftp 4.2.2
+  Updated mc 4.7.5.2
+  Updated (g)host(4)(l)inux 0.37a
+  Updated testdisk/photorec 6.12-WIP Apr 13, 2011
+  Updated xfsprogs 3.1.5
+  Updated xfsdump 3.0.5
+  Updated partclone 0.2.22
+  Updated links 2.3pre1 (added graphics support) "links -g"
+  Updated fixparts 0.7.1
+  Updated lrzip 0.602
+  Updated wget 1.12-2474
+  Updated pcmanfm-mod 1.2.2
+  Updated syslinux 4.04-pre22
+  Updated transmission-gtk 2.30b2
+  Updated grub2 1.99-rc1-13
+  Updated xorriso 1.0.8
+  Updated cdrskin 1.0.6
+  Updated cdrtools 3.01a04
+  Updated ntfs-3g 2011.4.12
+  Updated coreutils 8.11
+  Updated intel driver 2.15.0
+  * Added nouveau Nvidia card driver.
+
+11.8 - 3/28/2011
+  * The kernels are 2.6.38.2.
+  Updated hpacucli 8.70-8.0
+  Updated file-roller 2.32.1
+  Updated mdadm 3.1.5
+  Updated lrzip 0.601
+  Updated rsync 3.0.8
+  Updated tin 2.0.0 release 20110204
+  Updated mtr 0.80
+
+11.7 - 3/22/2011
+  Updated pcmanfm-mod 1.2.0
+  Updated Xorg-server and drivers 1.9.5
+  Updated gdisk 0.7.0
+  Added fixparts 0.7.0
+  Added nwipe 0.03
+  Updated FireFOX 4.0
+  Updated aria2c 1.11.0
+  Updated partclone 0.2.21
+  Updated wget 1.12-2460
+  Updated openssh 5.8p1
+  Updated ntfs-3g 2011.1.15AR.4
+  Added transmission-gtk 2.22
+  Added geany 0.21pre
+  Updated alsa-utils 1.0.24.2
+  Updated jfsutils 1.1.15
+  Updated mc 4.7.5.1
+
+11.6 - 3/16/2011
+  * The 32bit kernel is 2.6.38. The 64bit kernel is 2.6.37.4.
+  Updated xorriso 1.0.4
+  Updated cdrskin 1.0.4
+  Updated partclone 0.2.19
+  Updated dkopp 5.7
+  Updated lftp 4.2.0
+  Updated xterm 269
+  Updated LVM2 2.02.84
+  Updated mdadm 3.1.4
+  Updated zfs-fuse 0.7.0
+  Updated bash 4.2.8
+  Updated clamav 0.97
+  Updated sylpheed 3.1.0
+  Updated fetchmail 6.3.19
+  Updated Pidgin 2.7.11
+  Updated lynx 2.8.8dev.8
+  Updated sleuthkit 3.2.1
+  Updated afftools 3.6.6
+  Updated tar 1.26
+  Updated vim 7.3.138
+  Updated curl 7.21.4
+  Updated mc 4.7.0.10
+  Updated testdisk/photorec 6.12-WIP Mar 8, 2011
+  Updated fuse-exfat 0.9.4
+  Updated pan 0.134
+  Updated dar 2.3.11
+  Updated rdup 1.1.11
+  Updated encfs 1.7.4
+  Updated rsync 3.1.0dev
+
+11.5 - 3/8/2011
+  * The 32bit and 64bit kernels are 2.6.37.3.
+  Updated glibc 2.13
+  Added rdd 3.0.2
+  Updated bash 4.2.7
+  Updated xorriso 1.0.2
+  Updated cdrskin 1.0.2
+  Updated cdrtools 3.01a03
+  Updated lrzip 0.571
+  Updated aria2c 1.10.9
+  Updated nano 2.3.0
+  Updated partclone 0.2.18
+  Updated Qemu-kvm 0.14.0
+  Updated ntfs-3g 2011.1.15AR.2
+  Updated FireFOX 3.6.15
+  Updated fluxbox 1.3.1
+  Updated Xorg-server and drivers 1.9.4
+  * Readded option to install Opera.
+
+11.4 - 2/18/2011
+  Updated hdparm 9.37
+  Updated wiper 3.3
+  Updated gdisk 0.6.14
+  Updated GParted 0.8.0
+  Updated FireFOX 3.6.13
+  Updated e2fsprogs 1.41.14
+  Updated ntfs-3g 2011.1.15AR.1
+  Updated partclone 0.2.17
+  Updated fsarchiver 0.6.12
+  Updated testdisk/photorec 6.12
+  Updated ddrescue 1.14
+  Updated ncftp 3.2.5
+  Updated testdisk/photorec 6.12-WIP Feb 16, 2011
+  Updated xorriso 1.0.0
+  Updated util-linux-ng 2.19
+  Updated coreutils 8.10
+  Updated memtest86+ 4.20
+  Updated cryptsetup 1.2.0
+  Updated grub2 1.99-rc1-3
+  * Removed option to install Opera.
+
+11.3 - 12/3/2010
+  Updated ddrescue 1.14-rc1
+  Updated mutt 1.5.21
+  Updated flashrom 0.9.3
+  Updated testdisk/photorec 6.12-WIP Dec 2, 2010
+
+11.2 - 11/28/2010
+  Updated coreutils 8.7
+  Updated lftp 4.1.1
+  Updated clamav 0.96.5
+  Updated hdparm 9.35
+  Updated wiper 3.1
+  Updated gdisk 0.6.13
+  Updated xfsprogs 3.1.4
+  Updated aria2c 1.10.6
+  Updated grub2 1.99+20101126-1
+  Updated LVM2 2.02.77
+  Updated ddrescue 1.14-pre1
+  Updated tar 1.25
+  Updated cdrtools 3.01a01
+  Updated xorriso 0.6.4
+  Updated cdrskin 0.8.8
+  Updated htop 0.9
+  Updated dc3dd 7.0.0
+  Updated testdisk/photorec 6.12-WIP Nov 20, 2010
+  Updated lrzip 0.543
+  Updated nano 2.2.6
+  Updated syslinux 4.03
+
+11.1 - 11/1/2010
+  Updated GParted 0.7.0
+  Updated FireFOX 3.6.12
+
+11.0 - 10/11/2010
+  Updated hdparm 9.33
+  Updated gdisk 0.6.12
+  Updated ntfs-3g 2010.10.2
+  Updated lynx 2.8.8dev.6
+  Updated fetchmail 6.3.18
+  Updated partclone 0.2.16
+  Updated lshw B.02.15
+
+10.9 - 10/2/2010
+  * It's still 10.9.
+  Updated GParted 0.6.4
+
+10.9 - 9/28/2010
+  * The 32bit and 64bit kernels are 2.6.35.6.
+  Updated truecrypt 7.0a
+  Updated FireFOX 3.6.10
+  Updated aria2c 1.10.3
+  Updated partclone 0.2.15
+  Updated ntfs-3g 2010.8.8AR.5
+  Added defrag 0.11
+  Added ddpt 0.91
+  Updated lftp 4.0.10
+  Updated clamav 0.96.3
+  Updated Pidgin 2.7.3
+  Updated dkopp 5.5
+  Added ukopp 3.8
+  Added findwild 1.1
+  Added fsarchiver_dialog 0.95
+  Updated xorriso 0.6.2
+  Updated cdrskin 0.8.6
+  Updated hdparm 9.32
+  Updated gdisk 0.6.11
+  Updated LVM2 2.02.74
+  Updated lynx 2.8.8dev.5
+  Updated GParted 0.6.3
+
+10.8 - 8/31/2010
+  * The 32bit and 64bit kernels are 2.6.35.4.
+  * Added SMP support to kernels.
+  Updated ntfs-3g 2010.8.8AC.4
+  Updated hdparm 9.30
+  Updated wiper 2.8
+  Updated gdisk 0.6.10
+  Updated xfsprogs 3.1.3
+  Updated grub2 1.98+20100804-4
+  Updated sylpheed 3.1.0beta3
+  Updated dd_rescue 1.20
+  Updated ddrescue 1.13
+  Added tw_cli 10.2
+  Added hpacucli 8.50-6.0.2-2
+  Updated aria2c 1.10.1
+  Updated openssh 5.6
+  Updated encfs 1.7.0
+  Added fuse-exfat 0.9.2+svn
+  * Added these non kernel boot options:
+    dhcp=eth0  "Start DHCP client on eth0 etc."
+    sshd       "Start SSH daemon! (root can login with empty password)"
+
+10.7 - 8/3/2010
+  Updated LVM2 2.02.72
+  Updated GParted 0.6.2
+  Updated partimage 0.6.9
+  Updated partclone 0.2.13
+
+10.6 - 7/28/2010
+  Updated testdisk/photorec 6.12-WIP July 28, 2010
+
+10.5 - 7/26/2010
+  Updated ntfs-3g 2010.7.23-RC
+  Updated Pidgin 2.7.2
+  Updated GParted 0.6.2-git
+  Updated Qemu-kvm 0.12.5
+  Updated FireFOX 3.6.8
+
+10.4 - 7/23/2010
+  * Added option to change backlight level in X.
+  Added dkopp 5.3 (X DVD/BD backup program)
+  Updated aria2c 1.10.0
+  Updated tmux 1.3
+  Updated tar 1.23.90
+  Updated ntfs-3g 2010.6.31-RC
+  Updated ddrescue 1.13-rc2
+  Updated syslinux 4.02
+  Updated grsync 1.1.1
+  Updated btrfs-progs 0.19+git-20100717
+  Updated sylpheed 3.1.0beta2
+  Updated truecrypt 7.0
+  Updated FireFOX 3.6.7
+  Updated beaver 0.4.0 (stable)
+  * Fixed 'install-pkg -i wine' to install Wine 1.2.
+  * Readded GRUB2 1.98+20100722, you can use 'grub2config' to configure
+    and install it on your hard drive. Run 'install-pkg -i grub2' first,
+    because there may be a more recent version available.
+
+10.3 - 7/12/2010
+  The X version of 10.2 had a bug!
+
+10.2 - 7/11/2010
+  Updated Xorg-server and drivers 1.8.2
+  Updated GParted 0.6.1
+  Updated (g)host(4)(l)inux 0.34
+  Updated gdisk 0.6.9
+  * Removed GRUB2, but you can install it 'install-pkg -i grub2', you
+    can use 'grub2config' to configure and install it on your hard drive.
+
+10.1 - 7/8/2010
+  Updated mc 4.7.0.7
+  Updated ati-radeon video card driver 6.13.1
+  Updated sis video card driver 0.10.3
+  Updated sisusb video card driver 0.9.4
+  Updated LVM2 2.02.70
+
+10.0 - 7/4/2010
+  Updated hdparm 9.29
+  Updated wiper 2.7
+  Updated syslinux 4.01
+  Updated xorriso 0.6.0
+  Updated cdrskin 0.8.4
+  Updated sleuthkit 3.1.3
+  Updated LVM2 2.02.69
+  Updated chntpw 100627
+  Updated testdisk/photorec 6.12-WIP June 2010
+  Updated sylpheed 3.0.3
+  * Removed Thunderbird, but it can be installed in X.
+  * Fixed problem (in xsetup and autologin) when "Xorg -configure" chooses
+    the framebuffer driver and there's no framebuffer device.
+  * There's only these non kernel boot options:
+    autologin      "Automatically login!"
+    nokeymap       "Don't prompt for a keymap choice!"
+    keymap=fr      "Specify console keymap! (overrides nokeymap)"
+    xlogin         "Automatically login and start X!"
+    xkeymap=fr     "Specify X keymap! (depends on xlogin and overrides nokeymap)"
+    xdriver=intel  "Specify X video card driver! (depends on xlogin)"
+
+9.9 - 6/30/2010
+  * The 32bit and 64bit kernels are 2.6.34-git16.
+  Added wiper 2.6
+  Updated lynx 2.8.8dev.4
+  Updated FireFOX 3.6.6
+  Updated Thunderbird 3.1
+  Updated rdup 1.1.7
+  Updated GParted 0.6.0
+  Updated wget 1.12-2392
+  Updated xterm 261 (added better looking font)
+  Updated aria2 1.9.5
+  Updated encfs 1.6.0
+  Updated ddrescue 1.13-rc1
+  Updated util-linux-ng 2.18
+  * Added afftools from afflib 3.5.12.
+  * Updated intel video card driver 2.12.0.
+  * Updated ati-radeon and nv video card drivers to latest git versions.
+  * Updated synaptics touchpad driver 1.2.99.1.
+  * Added option to use framebuffer driver for X.
+  * Replaced pcmanfm 0.5.2 with pcmanfm-mod 1.0.4.
+
+9.8 - 6/17/2010
+  Updated xorriso 0.5.8
+  Updated partclone 0.2.11
+  Updated curl 7.21.0
+  Updated grub2 1.98+20100614
+  Updated extundelete 0.2.0
+  * Added touchpad configuration option in X (gpointing-device-settings 1.5.1).
+
+9.7 - 6/13/2010
+  Updated Xorg-server 1.7.7 (more video card drivers are included)
+  Updated cdrskin 0.8.2
+  Updated util-linux-ng 2.18-rc1
+  Updated GParted 0.6.0-beta2
+  Updated LVM2 2.02.67
+  Updated lftp 4.0.9
+  Updated ntfs-3g 2010.5.16AC.1
+
+9.6 - 6/6/2010
+  Updated Xchat 2.8.8
+  Added Pidgin 2.7.1
+  Updated cdrtools 3.00
+  Updated GParted 0.6.0-beta1
+  Updated zfs-fuse 0.6.9
+  Updated aria2 1.9.4
+  Updated cryptsetup 1.1.2
+  Updated flashrom 0.9.2
+  Updated xterm 259
+  Updated lftp 4.0.8
+  Updated mc 4.7.0.6
+  * Added 'nilfs2' filesystem module.
+  Added nilfs2-utils 2.0.18
+
+9.5 - 5/30/2010
+  * The 32bit and 64bit kernels are 2.6.33.5.
+  Updated clamav 0.96.1
+  Updated sleuthkit 3.1.2
+  Updated partclone 0.2.10
+  Updated LVM2 2.02.66
+  Updated gdisk 0.6.8
+  Updated parted 2.3
+  * Fixed Opera install script.
+  * Added 'clamav, grub2, and parted' to install-pkg.
+  * Patched mc 4.7.0.5 to fix bug in viewer.
+  * Added 'synaptics_usb 1.5rc6' module for USB touchpad support.
+  * Added 'exfat (read-only)' filesystem module.
+  * Added option to install Wine (Windows emulator) in X.
+  * Added non-X version.
+
+9.4 - 5/19/2010
+  * The 32bit and 64bit kernels are 2.6.32.13.
+  * There are a lot of software updates and fixes, but I don't list them all.
+  Updated e2fsprogs 1.41.12
+  Updated FireFOX 3.6.3
+  Added Thunderbird 3.0.4
+  Added rdup 1.1.5
+  Added tmux 1.2
+  Updated truecrypt 6.3a
+  Updated Qemu-kvm 0.12.4
+  Updated coreutils 8.5
+  Updated GParted 0.5.2
+  Added file-roller 2.30.1.1
+  Updated fsarchiver 0.6.10
+  Updated parted 2.2
+  Updated mc 4.7.0.5
+  Updated xfsdump 3.0.4
+  Updated xfsprogs 3.1.2
+  Updated aria2 1.9.3
+  Updated rsync 3.0.7
+  Updated curl 7.20.1
+  Updated lftp 4.0.7
+  Updated ncftp 3.2.4
+  Updated epic5 1.1.2
+  Updated partclone 0.2.8
+  Updated cdrskin 0.8.0
+  Updated xorriso 0.5.6
+  Updated dar 2.3.10
+  Updated emelfm2 0.7.2
+  Updated partimage 0.6.9_beta5 "Added partimage-ssl and partimaged-ssl"
+  Updated xfburn 0.4.3
+  Updated fetchmail 6.3.17
+  Updated cdrtools 2.01.01a79
+  Updated star 1.5.1
+  Updated btrfs-progs 0.19+git-20100518
+  Updated tar 1.23
+  Updated sleuthkit 3.1.1
+  Updated syslinux 3.86
+  Updated clamav 0.96
+  Updated LVM2 2.02.65
+  Updated slrn 1.0.0-pre18
+  Updated bash 4.1.7
+  Updated sylpheed 3.0.2
+  Updated util-linux-ng 2.17.2
+  Updated openssh 5.5
+  Updated ntfs-3g 2010.5.16
+  Updated ext3grep 0.10.2
+  Added extundelete 0.1.8
+  Updated xfprot 2.4
+  Updated (g)host(4)(l)inux 0.33a
+  Updated ddrescue 1.12
+  Updated lynx 2.8.8dev.3
+  Updated testdisk/photorec 6.12-WIP April 2010
+  * Added lzma support to squashfs and mksquashfs/unsquashfs.
+  * Removed GRUB, there's just GRUB2 1.98 on the system. You can use
+    'grub2config' to install it. There is grub.exe from grub4dos, you
+    can use that when you boot RIPLinuX-9.4.iso, or on USB. It should
+    work with ntfs, reiserfs, ext2/3/4, jfs, xfs, fat16/32, ufs2, and
+    iso9660 filesystems.
+  * Added script to download and install Google Chrome in X.
+  * Updated script to download and install Opera in X.
+  * Updated script to download and install Java in X.
+  * Added script to download and install 'nmap', 'install-pkg -i nmap'.
+  * Updated 'install-pkg' script, it's used to download and install more
+    recent versions of some installed programs (i.e. firefox, fsarchiver,
+    gparted, ntfs-3g, testdisk/photorec, thunderbird).
+  * Updated X option to install Flash Player for FireFOX etc.
+
+NOTE: There's a GRUB2 version of RIPLinuX, the difference is it uses
+      GRUB2 to boot the ISO, instead of ISOLinux, if one doesn't
+      boot you can try the other. The PXE version is self explanatory
+      to those who would be interested.
+

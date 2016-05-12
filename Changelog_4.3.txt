@@ -1,0 +1,554 @@
+4.3 - 12/22/2007
+  Updated bash v3.2.33.
+  Updated ndiswrapper v1.51.
+  Updated isomaster v1.3.
+  Updated clamav v0.92.
+  Updated sshfs v1.9.
+  Updated rsync v3.0.0pre7.
+  Updated nano v2.0.7.
+  Updated sylpheed v2.4.8.
+  
+4.2 - 12/13/2007
+  Added rdesktop v1.5.0.
+  Added tsclient v0.150.
+  A few minor updates.
+  *** Added EFI GPT support to the kernel.
+  
+4.1 - 11/30/2007
+  Updated FireFOX v2.0.0.11.
+  Updated ndiswrapper v1.50.
+  Added grsync v0.6.1.
+  Updated less v416.
+  
+4.0 - 11/25/2007
+  *** The kernel is updated to v2.6.22.14.
+  Updated ntfs-3g v1.1120.
+  Updated htop v0.7.
+  Updated lftp v3.6.1.
+  
+3.9 - 11/17/2007
+  Readded smbclient v3.0.27.
+  Updated ddrescue v1.6.
+  *** Fixed mkusb scripts.
+  
+3.8 - 11/12/2007
+  *** The kernel is updated to v2.6.22.12.
+  *** The USB install now puts everything in /boot/syslinux!
+  A few minor software updates.
+  
+3.7 - 11/8/2007
+  Replaced mpg321 with mpg123 v0.67.
+  Updated links v2.1pre31.
+  Added zfs-fuse v0.4.0_prebeta2.  
+  Updated ntfs-3g v1.1104.
+  Updated testdisk v6.9-WIP, Nov 6.
+  Updated photorec v6.9-WIP, Nov 6.
+  Updated mutt v1.5.17.
+
+3.6 - 11/2/2007
+  Updated FireFOX v2.0.0.9.
+  Updated cdrskin v0.4.0.pl00.
+  Added gtk-lshw vB.02.12.01.
+
+3.5 - 10/31/2007
+  Updated cdrtools v2.01.01a36.
+  Updated ddrescue v1.6-rc5.
+  Updated rsync v3.0.0pre4.
+  Updated ndiswrapper v1.49.
+  Updated curl v7.17.1.
+  Updated star v1.5a87.
+  Updated ntfs-3g v1.1030.
+  Updated testdisk v6.9-WIP, Oct 28.
+  Updated photorec v6.9-WIP, Oct 28.
+
+3.4 - 10/23/2007
+  *** Removed kernel support for Parport, Paride, Pcmcia, and Floppy drives,
+      because they're not used much anymore.
+  Updated tar v1.19.
+  Updated lftp v3.6.0.
+  *** Replaced xzgv with gqview v2.1.5.
+  *** Fixed ssh openssl library mismatch.
+  
+3.3 - 10/19/2007
+  Updated alsa-driver v1.0.15.
+  Updated ndiswrapper v1.49-rc4.
+  Updated FireFOX v2.0.0.8.
+  A few other updates.
+
+3.2 - 10/15/2007
+  Updated lshw vB.02.12.01.
+  *** The usb problem is fixed.
+  *** Removed SMBFS support, because it's deprecated in favor of CIFS.
+  
+3.1 - 10/13/2007
+  Added screen v4.0.3.
+  Fixed less library link.
+  Updated lshw vB.02.12.
+  *** Run lshw like this `lshw -disable usb', otherwise
+      it will seg fault. Something to do with reading
+      recent /usr/share/hwdata/usb.ids file?
+
+3.0 - 10/12/2007
+  *** The kernel is updated to v2.6.22.10.
+  Updated chntpw v070923.
+  Updated e2fsprogs v1.40.2.
+  Updated ddrescue v1.6-rc3.
+  Updated dd_rescue v1.14.
+  Updated udpcast v20070602.
+  *** Added IP-Multicast support to kernel.
+  Updated htop v0.6.6.
+  Updated cdrskin v0.3.8.pl00.
+  Updated cdrtools v2.01.01a35.
+  Updated star v1.5a86.
+  Updated tar v1.18.
+  Updated clamav v0.92rc2.
+  Updated dar v2.3.6.
+  Updated lftp v3.5.14.
+  Updated bash v3.2.25.
+  Updated LVM2 v2.02.28.
+  Updated device-mapper 1.02.22.
+  Updated parted v1.8.8.
+  Updated GNU fdisk v1.0.
+  Updated lynx 2.8.7dev.7.
+  Updated testdisk v6.8.
+  Updated photorec v6.8.
+  Updated partimage v0.6.6.
+  *** There's also a nologin version partimage-nologin.
+  Updated ncftp v3.2.1.
+  Updated epic4 v2.8.
+  Updated naim v0.11.8.3.1.
+  Updated FireFOX v2.0.0.7.
+  Updated emelfm2 v0.3.5.
+  Updated sylpheed v2.4.7.
+  Updated pan v0.132.
+  Updated jfsutils v1.1.12.
+  Updated xfsprogs v2.9.4.
+  Updated xfsdump v2.2.46.
+  Updated ntfsprogs v2.0.0.
+  Added hfsprogs (fsck.hfsplus and mkfs.hfsplus) v332.14.
+  Added wpa_supplicant v0.6.0.
+  Updated fusepod v0.5.2.
+  Updated openssh v4.7p1.
+  Updated ntfs-3g v1.1004.
+  Updated mutt v1.5.16.
+  Updated rsync v3.0.0pre2.
+  Updated fluxbox v1.0.0.
+  Updated ndiswrapper v1.49-rc3.
+  A few other updates.
+  
+2.9 - 5/17/2007
+  Updated parted v1.8.7.
+  Updated sshfs v1.8.
+  Updated ntfs-3g v1.516.
+  Updated testdisk v6.7-WIP May 16, 2007.
+  Updated photorec v6.7-WIP May 16, 2007.
+  Fixed gunzip and memtest.
+  
+2.8 - 5/15/2007
+  Re-released non-X RIPLinux-2.8, because lspci wasn't working.
+  
+2.8 - 5/7/2007
+  Fixed lvm library link.
+  
+2.7 - 5/7/2007
+  Updated sylpheed v2.4.1.
+  Updated GNU fdisk v0.9.3.
+  Updated gzip v1.3.12.
+  Updated xine v0.99.5.
+  Updated LVM2 v2.02.25.
+  Updated device-mapper 1.02.19.
+  Updated pan v0.129.
+  Added upx v3.00.
+  
+2.6 - 5/3/2007
+  Updated bash v3.2.17.
+  The scripts clonentfs, shrinkntfs, and mkpart were fixed.
+
+2.5 - 4/28/2007
+  *** The kernel is updated to v2.6.21.
+  Updated links v2.1pre28.
+  Updated chntpw v070409.
+  Updated curl v7.16.2.
+  Updated sylpheed v2.4.0.
+  Updated clamav v0.90.2.
+  Updated LVM2 v2.02.24.
+  Added xine (X DVD player) v0.99.5cvs-070419.
+  Updated mutt v1.5.15+20070412.
+  Updated pan v0.128.
+  Updated ntfs-3g v1.417.
+  Updated nano v2.0.6.
+  Updated cdrtools v2.01.01a26.
+  Updated cdrskin v0.3.6.pl00.
+  Updated star v1.5a79.
+  Added open-iscsi v2.0-754.
+  Updated testdisk v6.7-WIP Apr 27, 2007.
+  Updated photorec v6.7-WIP Apr 27, 2007.
+  Readded parted v1.8.6.
+  *** There's parted-1.7.1 and parted (1.8.6).
+  
+2.4 - 4/10/2007
+  *** The kernel is updated to v2.6.20.6.
+  Updated lftp v3.5.10.
+  Updated ntfs-3g v1.328.
+  Updated ndiswrapper v1.41.
+  Added sylpheed (X mail client) v2.4.0beta7.
+  Added pan (X newsreader) v0.126.
+  Added emelfm2 (X file manager) v0.3.3.
+  Added truecrypt v4.3.
+  Added nano v2.0.4.
+  Updated xfsprogs v2.8.20.
+  Updated xfsdump v2.2.42.
+  Updated mtpaint v3.11.
+  Updated mc v2007-04-04-03.
+  Updated cdrtools v2.01.01a25.
+  Updated curlftpfs v0.9.1.
+  Updated fetchmail v6.3.8.
+  Updated star v1.5a78.
+  Updated e2fsprogs v1.40-WIP-2007-04-11.
+  A few other updates!
+  *** Reverted parted to v1.7.1, because of reported 
+      problems with later versions and gparted.
+  *** Added cloneNTFS script for cloning a Windows NT/2k/XP/Vista partition!
+      # clonentfs "For Help!"
+  *** Added a X menu option to download and install the latest FireFOX.
+        
+2.3 - 3/22/2007
+  Added Ext4dev support to the kernel.
+  Updated e2fsprogs v1.40-WIP-2006.11.14.
+  Updated parted v1.8.6.
+  Added isomaster v0.8.1.
+  Updated epic4 v2.6.
+  Updated FireFOX v2.0.0.3.
+  Updated fluxbox v1.0rc3.
+  Updated bash v3.2.15.
+  Updated fusepod v0.5.1.
+  Updated coreutils v6.9.
+  Updated udpcast v20070323.
+  A few other updates!
+  Replaced wrong vim in non-X version!
+*** I patched the kernel for read-write UFS2 support, but
+    I don't know how well it works.
+    # mount -t ufs -o rw,ufstype=ufs2 /dev/sda3 /mnt/hd
+
+2.2 - 3/18/2007
+  Updated cdrskin v0.3.4.pl00.
+  Updated parted v1.8.3.
+  Updated mutt v1.5.14+cvs20070315.
+  Updated xchat v2.8.0.
+  Updated xarchiver v0.4.6.
+  Updated msmtp v1.4.10.
+  Updated rsync v2.6.9.
+  Updated tin v1.9.2.
+  Updated fluxbox v1.0rc2.
+  A few other updates!
+  
+2.1 - 3/14/2007
+  Added GNU fdisk (fdisk.gnu) and cfdisk (cfdisk.gnu) v0.9.2
+  Updated QEMU v0.9.0
+  Updated star v1.5a77.
+  Updated tmsnc v0.3.2.
+  Updated naim v0.11.8.2.1.
+  Updated lynx 2.8.7dev.4.
+  Updated links v2.1pre26.
+  Updated cdrtools v2.01.01a24.
+  Updated mc v2007-03-09-18.
+  Updated bash v3.2.10.
+  Updated parted v1.8.2.
+  Updated LVM2 v2.02.23.
+  Updated device-mapper 1.02.18.
+  Updated openssh v4.6p1.
+  Updated zip v3.32.
+  Updated tar v1.16.1.
+  Updated gzip v1.3.9.
+  Updated fetchmail v6.3.7.
+  Updated xfsprogs v2.8.18.
+  Updated xfsdump v2.2.42.
+  Updated curl v7.16.1.
+  Updated gparted v0.3.4.
+  Updated ntfsprogs v2.0.0 CVS Mar 14, 2007.
+  Updated coreutils v6.7.
+  
+2.0 - 3/10/2007
+  *** The kernel is updated to v2.6.20.2.
+  Updated lftp v3.5.9.
+  Updated ncftp v3.2.0.
+  Updated dar v2.3.3.
+  Updated testdisk v6.7-WIP.
+  Updated photorec v6.7-WIP.
+  Updated udpcast v20070306.
+  Updated sshfs v1.7.
+  Updated cdrskin v0.3.2.pl01.
+  Updated curlftpfs v0.9.
+  Updated dvd+rw-tools v7.0.
+  Updated mtpaint v3.10.
+  Updated smartmontools v5.37.
+  Updated reiser4progs v1.0.6.
+  Updated clamav v0.90.1.
+  Updated FireFOX v2.0.0.2.
+  Updated ntfsprogs v2.0.0 CVS Mar 9, 2007.
+  Updated ndiswrapper v1.38.
+  Updated lilo v22.8.
+  Added ntfs-3g v1.0.
+  A few other updates!
+  Removed gxine because it wasn't working.
+  Added option to download and install Adobe Flashplayer 9 for FireFOX!
+    
+1.9 - 7/5/2006
+  The mnsetup script was fixed.
+  Updated clamav v0.88.3.
+  Updated procps v3.2.7.
+  Updated psmisc v22.2.
+  Added Photorec v6.4.
+  
+1.8 - 6/23/2006
+  Updated mtpaint v3.00.
+  Updated ntfsprogs v1.13.1.
+  Updated gmplayer v1.0pre8.
+  Updated testdisk v6.4.
+  Updated xfsprogs v2.8.3.
+  Updated xfsdump v2.2.39.
+      
+1.7 - 6/20/2006
+  Updated xterm v2.15.
+  Updated xfsprogs v2.8.2.
+  Updated xfsdump v2.2.38.
+  Added CD and DVD burn options to mc menu.
+  
+1.6 - 6/19/2006
+  *** The kernel is updated to v2.6.17.
+  Updated lftp v3.4.7.
+  Updated htop v0.6.2.
+  Added FireFTP extension to FireFOX.
+  Replaced xpaint with mtpaint v2.30.
+  Updated naim v0.11.8.2.
+  Added gftp v2.0.18.
+  Added xarchiver v0.3.3.
+  Updated parted v1.7.1.
+  Added curlftpfs v0.8.
+  Updated mdadm v2.5.1.
+  Updated udpcast v20060525.
+  Updated star v1.5a74.
+  Updated lynx 2.8.6dev.18a.
+  Updated mc v2006-06-17-02.
+  Updated pcmciautils v014.
+  Removed ChatZilla, it's easy to download and install in FireFOX.
+  Added Xchat v2.6.4.
+  Updated FireFOX v1.5.0.4.
+  Updated links v2.1pre22.
+  Updated jfsutils v1.1.11.
+  Added fusepod v0.4.
+  Updated curl v7.15.4.
+  Updated e2fsprogs v1.39.
+  A few other updates!
+  
+1.5 - 5/17/2006
+  Added QEMU v0.8.1.
+  Updated lvm2 v2.02.06.
+  Updated devmapper v1.02.07.
+  Updated GParted v0.2.5.
+  
+1.4 - 5/12/2006
+  Added AGP and MTRR support to the kernel.
+  Updated htop v0.6.1.
+  Added X support to vim.
+  Updated lshw vB.02.08.01.
+    
+1.3 - 5/9/2006
+  Fixed incorrect installation of Gaim!
+  *** Added option to boot straight into X!
+  *** If that doesn't work boot normally, and run 'xsetup'.
+  Updated vim v7.0.
+   
+1.2 - 5/8/2006
+  Reverted to using an initramfs, because it's not big enough to
+  justify using squashfs/unionfs.
+  *** You need at least 256MB of RAM to boot and use it!
+  Added some more programs to the FluxBOX menu.
+  
+1.1 - 5/6/2006
+  Added ChatZilla extension to FireFOX.
+  Cleaned up some scripts.
+    
+1.0 - 5/4/2006
+  *** I put the version at 1.0 to signify I consider it stable!
+  *** The kernel is updated to v2.6.16.4.
+  Updated udpcast v20060325.
+  Updated epic4 v2.4.
+  Added hfsutils v3.2.6.
+  Added dar v2.3.0.
+  Added par2 v0.4.
+  Updated smartmontools v5.36.
+  Updated reiserfsprogs v3.6.20.
+  Updated mc v2006-04-18-14.
+  Updated mdadm v2.4.
+  Updated mtr v0.71.
+  Updated bash v3.1.17.
+  Updated ddrescue v1.2.
+  Updated fetchmail v6.3.4.
+  Updated samba v3.0.22.
+  Updated lftp v3.4.6.
+  Updated ndiswrapper v1.15.
+  Updated e2fsprogs v1.39-WIP-2006.04.09.
+  Added cryptsetup-luks v1.0.3-rc3.
+  Updated dirsync v1.11.
+  Updated tin v1.9.1.
+  Updated lvm2 v2.02.05.
+  Updated devmapper v1.02.05.
+  Updated partimage v0.6.5-beta3.
+  Updated links v2.1pre21.
+  *** Removed svga graphics support from links.
+      If you want a graphical browser use FireFOX.
+  
+  Added CLAMAV virus scanner v0.88.2.
+  
+  *** Created X Window version of RIPLinux!
+  
+  The GParted partition editor (v0.2.4) and the FireFOX browser
+  (v1.5.0.3) are included.
+  
+  *** It has complete sound support (alsa-driver v1.0.11).
+  
+  These are the other X programs it contains:
+
+  xmms      "Sound (mpg/wav/au) player!"
+  gmplayer  "The default FireFOX video/sound player!"
+  gxine     "Plays DVDs and other video formats!"
+  xpdf      "PDF reader!"
+  xpaint    "Image editor!"
+  xzgv      "Image (jpg/gif/png) viewer!"
+  gaim      "Instant messenger client!"
+  evmsgui
+  putty
+  
+  *** The GParted program and its X Window setup are borrowed from
+      the GParted LiveCD.
+
+  NOTE: RIPLinuX has support for foreign keyboard maps and fonts, but
+        otherwise it only supports English!
+         
+15.2 - 3/26/2006
+  Forgot to include /init link for initramfs!
+  Updated ndiswrapper v1.11.
+  Updated pcmciautils v013.
+  
+15.1 - 3/25/2006
+  Fixed GRUB, Reiser4 support should work.
+  Fixed bug in grubconfig.
+  Added tcptraceroute v1.5beta6.
+  Added tcpdump v3.9.4.
+  Updated mc v2006-03-23-19.
+  Updated ddrescue v1.2-rc1.
+  Added cdck v0.5.0.
+  Updated mbuffer v20060324.
+  The sk98lin driver may work now!
+  
+15.0 - 3/20/2006
+  The kernel is updated to v2.6.16.
+  Updated bash v3.1.14.
+  Updated lynx v2.8.6dev17
+  Updated fetchmail v6.3.2.
+  Updated dvd+rw-tools v6.1.
+  Updated cdrtools v2.01.01a07.
+  Updated dirsync v1.10.
+  Updated openssh v4.3p2.
+  Updated ntfsprogs v1.13.0.
+  Updated lftp v3.4.3.
+  Updated udpcast v20060208.
+  Updated mc v2006-03-20-17.
+  Updated lvm2 v2.02.02.
+  Updated devmapper v1.02.03
+  Updated dmraid v1.0.0.rc10.
+  Updated tin v1.8.1.
+  Updated star v1.5a73.
+  Updated curl v7.15.3.
+  Updated sk98lin v8.31.2.3 driver in the kernel.
+  Updated evms v2.5.5.
+  Updated testdisk v6.3.
+  Added sshfs v1.6.
+  Added lilo v22.7.1.
+  Added cdrskin v0.1.2.
+  Added squashfs v3.0 support in the kernel.
+  Added mksquashfs/unsquashfs v3.0 programs.
+  Added ndiswrapper v1.11rc2 for WIFI support.
+  Read /usr/doc/ndiswrapper/ndiswrapper.txt on RIP.
+  Changed USB install method to use makebootfat!
+  Fixed initrd.gz.
+  Removed the splashimage patch from GRUB,
+  because it was causing problems.
+
+  ---------------------------------------------------
+  The version of GRUB on RIP is 0.97, but it's
+  patched to give it Reiser4 and NTFS support!
+  
+  It's also patched with GRUB4DOS patches v0.4.1,
+  and other miscellaneous patches.
+  
+  Read /boot/grub4dos/readme.txt on the RIP CD, or        
+  /usr/doc/RIP/grub4dos.txt on RIP!        
+  ---------------------------------------------------
+
+14.9 - 1/22/2006
+  The kernel is updated to v2.6.15.1.
+  Added some WIFI support in the kernel.
+  Added some PCMCIA support in the kernel.
+  Fixed /dev/cciss and /dev/ida devices.
+  Updated cdrtools v2.01.01a04.
+  Updated dvd+rw-tools v6.0.
+  Updated fetchmail v6.3.1.
+  Updated tin v1.8.0.
+  Updated lftp v3.4.0.
+  Updated evms v2.5.4.
+  Updated testdisk v6.2.
+  Updated star v1.5a70.
+  Updated bash v3.1.1.
+  Updated curl v7.15.1.
+  Added fscat programs.
+  Added e2tools programs.
+  Added tarfixer program.
+  Added gzrecover program.
+  Added svga graphics support to links v2.1pre20.
+  Added vim editor v6.4.4, without docs, scripts, and syntax files.
+  The default editor is mcedit.
+  A number of other software updates.
+
+14.8 - 11/14/2005
+  Fixed a bug in kexec (caused by an unofficial patch I applied).
+  Added '-L' nologin option to partimage.
+  The kernel is updated to 2.6.14.2.
+  I've been told the kernel works with VMWare ESX.
+  It may not work with VMWare unless you pass 'parport=0' to the kernel.
+  Updated sk98lin v8.28.1.3 driver in the kernel.
+  Added ufsutils (mkfs.ufs, fsck.ufs, etc.).
+  Fixed a bug I created in the chntpw 'write.sh' script.
+  A lot of software updates.
+  Added a FreeBSD v6.0 version of RIP.
+  -------------------------------------------------------------------
+  Added Slackware setup, you can install a Slackware Linux distribution
+  on a ext2, ext3, jfs, reiserfs, reiser4, or xfs formatted partition.
+
+  # setup  "Read HELP!"
+    
+  You need the Slackware ISO images 'slackware-10.2-install-d1.iso
+  and slackware-10.2-install-d2.iso' on CD or DVD! You need at least
+  'slackware-10.2-install-d1.iso'!
+  
+  You can also install Slackware from a partition on your hard drive
+  that has the directories (a, ap, etc.) with the Slackware tgz packages,
+  or over NFS. It's basically the same as standard Slackware setup!
+  
+  The filesystem on the partition can be any the kernel supports, at
+  least read-only!
+  
+  Slackware doesn't currently support reiser4, if you want to install
+  Slackware on a reiser4 partition you'll have to use the RIP kernel
+  to boot it. When asked by setup for a kernel to install choose
+  "rip_cdrom (Use the kernel from the RIP CD)".
+  -------------------------------------------------------------------
+   
+14.7 - 10/10/2005
+  The main reason for this release is a broken GRUB in 14.6.
+  The programs lynx, links, and bbe were updated.
+  The program ntfscmp was added.
+  The section pertaining to booting from DOS/Win9x/WinXP has
+  been updated in the RIP readme. If loadlin doesn't work,
+  you can try grub.exe from the hard drive.

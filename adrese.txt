@@ -1,0 +1,11 @@
+http://www.tux.org/pub/people/kent-robotti/looplinux/rip/
+
+You can get the (R)ecovery (I)s (P)ossible Linux rescue system here!
+
+It's a regular ISO! Make sure the program you use to download it
+understands it's a binary file. If it's downloaded as a text file
+it could get corrupted and be unusable.
+
+You'll need at least 256MB of RAM and a 586 CPU
+to boot and use it!
+

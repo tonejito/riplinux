@@ -1,0 +1,66 @@
+========================================================================
+        If you want to boot RIP from a USB Flash drive.
+========================================================================
+
+You can write any bootable RIP ISO to a CD/DVD, using cdrecord etc.
+You can also write any (except GRUB2 version) bootable RIP ISO to
+a USB flash drive.
+Example: dd if=RIPLinuX-13.7.iso of=/dev/sdb bs=1M  "Under Linux!"
+Example: dd if=RIPLinuX-13.7.iso of=\\.\e: bs=1M    "Under Windows!"
+There's a Windows version of "dd" here.
+http://www.tux.org/pub/people/kent-robotti/looplinux/rip
+You'll lose anything on the USB flash drive, but any remaining space
+on the drive can be used by using fdisk to create a second partition,
+and putting a FAT32 etc. filesystem on it.
+You can create a second partition on /dev/sdb by using "mkpart"
+from the RIP Linux system.
+# mkpart b all /dev/sdb
+# mkdosfs -F32 /dev/sdb2
+The above example assumes your USB flash drive is on /dev/sdb.
+
+You can also use this Windows USB installer to put RIP on a USB drive.
+Choose "RIP Linux" from its menu, then browse to where
+RIPLinuX-13.7.iso is on your hard drive etc. It should
+work with any RIP ISO, but your USB flash drive should
+be at least 256MB and FAT16 or FAT32 formatted.
+
+http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3
+
+Another method for putting RIP on a USB flash drive is using the
+"mkusb.sh" script, under Linux.
+
+========= Install RIP to the USB drive, using mkusb script =========
+
+    The USB drive should have at least 150 MB free.
+
+# bash mkusb.sh RIPLinuX-X.X.iso /dev/sdb1
+
+The above example assumes the USB drive's partition is on /dev/sdb1!
+
+# fdisk -l  "To find the device the USB drive is on!"
+
+If the USB drive is not partitioned and FAT16 or FAT32 formatted,
+use the '-f' option, because it must be partitioned and FAT formatted.
+You'll loose anything on the USB drive!
+
+# bash mkusb.sh -f RIPLinuX-X.X.iso /dev/sdb  "The device must not end
+                                               with a number!"
+
+Instead of specifying an ISO image, you can specify a source directory
+that contains the contents of the ISO image, laid out the same way as
+the ISO image.
+
+# bash mkusb.sh source_directory /dev/sdb1
+
+ATTENTION!
+
+   You can also mount a RIP CD and run 'mkusb.sh' from it.
+
+   # mount /dev/sr0 /mnt/cdrom
+   # bash /mnt/cdrom/boot/mkusb.sh -h  "For Help!"
+   # bash /mnt/cdrom/boot/mkusb.sh /mnt/sr0 /dev/sdb1
+
+   The above example assumes your CD drive is /dev/sr0 and your
+   USB drive's partition is /dev/sdb1!
+=========================================================================
+
